@@ -1,0 +1,236 @@
+/* font-family names to use in the css:
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Rubik', sans-serif;*/
+
+* {
+    max-width: 960px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    /* border: 1px solid black; */
+    /* background-color: #9AA0A8; */
+}
+body {
+    margin-top: 50px;
+}
+/*Navigation bar*/
+nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    max-width: none;
+    height: 40px;
+}
+nav, nav ul, nav li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+    text-align: right;
+    padding-top: 5px;
+    padding-right: 10px;
+    background-color: #A9D8B8;
+    width: 100%;
+    margin-right: 0;   
+}
+
+nav li {
+    display: inline;
+    margin-left: 20px;  
+}
+
+nav li:hover {
+    color: #9AA0A8;
+}
+
+nav li:active {
+    color: #697D58;
+}
+
+/* Div looks */
+
+.coloursection, .fontsection, .textsection  {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #9AA0A8;
+}
+
+.open, .poppins, .rubik {
+    display: inline-block;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+
+/*Headers/Titels*/
+h1 {
+    font-family: 'Rubik', sans-serif;
+    font-size: 40px;
+    color: #697D58;
+}
+
+h2 {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    font-size: 18px;
+    padding-left: 5px;
+    color: #697D58;
+}
+
+h3 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    padding-left: 5px; 
+    color: #697D58; 
+}
+
+/*Bodytext*/
+
+#h1showcase {
+    padding-left: 5px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding-left: 5px;
+}
+
+ul {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+#navstyle {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    letter-spacing: 0.5px;
+}
+
+#Cadetgrey {
+    display: inline-block;
+    background-color: #9AA0A8;
+    color: white;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+#Ashgrey {
+    display: inline-block;
+    background-color: #A7C4B5;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+#Celadon {
+    display: inline-block;
+    background-color: #A9D8B8;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+#Teagreen {
+    display: inline-block;
+    background-color: #BEFFC7;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px;
+    border: 1px solid black;
+} 
+
+#Resedagreen {
+    display: inline-block;
+    background-color: #697D58;
+    color: white;
+    width: 200px;
+    height: 70px;
+    text-align: center;
+    padding: 15px;
+    margin: 10px 10px 10px;
+    border: 1px solid black;
+}
+
+/* Font section text styling */
+    /* Open sans */
+#open {
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#openreg {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+}
+
+#openbold {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#openit {
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+    /* Poppins */
+#poppins {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#popsreg {
+    font-family: 'Poppins', sans-serif;
+    color: black;
+}
+
+#popbold {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#popit {
+    font-family: 'Poppins', sans-serif;
+    font-style: italic;
+    color: black;
+}
+
+    /* Rubik */
+#rubik {
+    font-family: 'Rubik', sans-serif;
+    text-decoration: underline;
+    color: black;
+}
+
+#rubreg {
+    font-family: 'Rubik', sans-serif;
+    color: black;
+}
+
+#rubbold {
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    color: black;
+}
+
+#rubit {
+    font-family: 'Rubik', sans-serif;
+    font-style: italic;
+    color: black;
+}
